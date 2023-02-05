@@ -78,7 +78,8 @@ public class PoetryStorageTest : IDisposable
         var mockPreferenceStorage = preferenceStorageMock.Object;
         var poetryStorage = new PoetryStorage(mockPreferenceStorage);
         await poetryStorage.InitializeAsync();
-
+        int t = 0;
+        //添加修改测试
         return poetryStorage;
     }
 
